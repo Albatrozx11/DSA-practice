@@ -8,10 +8,11 @@
 void insert();
 void delete();
 void display();
+int exit();
 int queue_array[MAX];
 int rear = - 1;
 int front = - 1;
-main()
+void main()
 {
     int choice;
     while (1)
