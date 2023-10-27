@@ -81,7 +81,7 @@ int main() {
 
     // Assuming the result polynomial can have at most size1 + size2 terms
     struct Term result[size1 + size2];
-    int size_result;
+    int size_result ;
 
     // Perform polynomial addition
     addPolynomials(poly1, size1, poly2, size2, result, &size_result);
@@ -91,7 +91,7 @@ int main() {
     displayPolynomial(poly1, size1);
 
     printf("Polynomial 2: ");
-    displayPolynomial(poly2, size2);
+    displayPolynomial(poly2, size2 );
 
     // Display the result polynomial
     printf("\nResult: ");
