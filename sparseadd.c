@@ -46,6 +46,6 @@ void main(){
             scanf("%d",&B[i][j]);
         }
     }
-    atuple=(A,r1,c1);
+    atuple=create_tuple(A,r1,c1);
     btuple=create_tuple(B,r2,c2);
 }
